@@ -1,0 +1,117 @@
+﻿Build started 09/04/2014 9:51:47 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_IXXAT_VCI\CAN_IXXAT_VCI.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /I\inc /I..\include /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"CAN_IXXAT_VCI_StdAfx.h" /Fp"busmaster_debug\CAN_IXXAT_VCI.pch" /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" CAN_IXXAT_VCI_stdafx.cpp
+         CAN_IXXAT_VCI_stdafx.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /I\inc /I..\include /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" CAN_IXXAT_VCI.cpp CANControllerConfigDlg.cpp CANSelectDlg.cpp ClientBuffer.cpp ClientList.cpp DIL_CAN_IXXAT_VCI.cpp HardwareListing.cpp IxxatCanChannel.cpp ..\Application\MultiLanguage.cpp vcinpldynl.cpp
+         CAN_IXXAT_VCI.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+         CANControllerConfigDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+         CANSelectDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+         ClientBuffer.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>ClientBuffer.cpp(169): warning C4018: '<' : no coinciden signed/unsigned
+         ClientList.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+         DIL_CAN_IXXAT_VCI.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>DIL_CAN_IXXAT_VCI.cpp(245): warning C4018: '>=' : no coinciden signed/unsigned
+         HardwareListing.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+         IxxatCanChannel.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+         MultiLanguage.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>..\Application\MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : vea la declaración de 'sscanf'
+         vcinpldynl.cpp
+     1>C:\WinDDK\7600.16385.1\inc\mfc42\afxv_w32.h(120): warning C4005: '_WIN32_WINDOWS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\can_ixxat_vci\targetver.h(20) : vea la definición anterior de '_WIN32_WINDOWS'
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /Ibusmaster_debug\ /nologo /fo"busmaster_debug\CAN_IXXAT_VCI.res" CAN_IXXAT_VCI.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_IXXAT_VCI\busmaster_debug\CAN_IXXAT_VCI.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\busmaster_debug\CAN_IXXAT_VCI.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/busmaster_debug\CAN_IXXAT_VCI.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\CAN_IXXAT_VCI.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"busmaster_debug\CAN_IXXAT_VCI.pdb" /MAP /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_IXXAT_VCI.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib" /DLL busmaster_debug\CAN_IXXAT_VCI.res
+         busmaster_debug\CAN_IXXAT_VCI.obj
+         busmaster_debug\CAN_IXXAT_VCI_stdafx.obj
+         busmaster_debug\CANControllerConfigDlg.obj
+         busmaster_debug\CANSelectDlg.obj
+         busmaster_debug\ClientBuffer.obj
+         busmaster_debug\ClientList.obj
+         busmaster_debug\DIL_CAN_IXXAT_VCI.obj
+         busmaster_debug\HardwareListing.obj
+         busmaster_debug\IxxatCanChannel.obj
+         busmaster_debug\MultiLanguage.obj
+         busmaster_debug\vcinpldynl.obj
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_IXXAT_VCI.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_IXXAT_VCI.exp
+         Generando código
+         Generación de código finalizada
+         CAN_IXXAT_VCI.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_IXXAT_VCI\busmaster_debug\CAN_IXXAT_VCI.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_IXXAT_VCI\CAN_IXXAT_VCI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.74

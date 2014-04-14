@@ -1,0 +1,40 @@
+﻿Build started 09/04/2014 9:48:14 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\BusEmulation.vcxproj" on node 3 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /Oicf /h "BusEmulation.h" /iid "BusEmulation_i.c" /proxy "BusEmulation_p.c" /tlb "Debug\BusEmulation.tlb" BusEmulation.idl 
+         Processing .\BusEmulation.idl
+         BusEmulation.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BusEmulation.cpp SimENG.cpp
+     1>cl : Línea de comandos error D8016: las opciones de línea de comandos '/O2' y '/RTC1' son incompatibles
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\BusEmulation.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.27

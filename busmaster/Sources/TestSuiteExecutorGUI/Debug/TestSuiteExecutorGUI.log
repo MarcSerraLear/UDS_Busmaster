@@ -1,0 +1,12 @@
+﻿Build started 09/04/2014 9:49:14 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TestSuiteExecutorGUI\TestSuiteExecutorGUI.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"TSExecutorGUI_stdafx.h" /Fp"Debug\TestSuiteExecutorGUI.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" ..\Application\MultiLanguage.cpp
+     1>cl : Línea de comandos warning D9007: '/Gm' requiere '/Zi o /ZI'; opción omitida
+         MultiLanguage.cpp
+     1>..\Application\MultiLanguage.cpp(565): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "TSExecutorGUI_stdafx.h"' al código fuente?
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TestSuiteExecutorGUI\TestSuiteExecutorGUI.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53

@@ -1,0 +1,854 @@
+﻿Build started 09/04/2014 9:49:08 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TXWindowFlexRay\TXWindowFlexRay.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TXWINDOWFLEXRAY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CHexEdit\HexEdit.cpp FlexListCtrl.cpp HeaderCtrlEx.cpp LinFlexListCtrl.cpp TXWindowFlexRay.cpp TransmitMsg.cpp TransmitMsg_LIN.cpp TxFlexRayDataStore.cpp TxFlexrayMsgHandlerDlg.cpp TxLINDataStore.cpp TxMsgChildFrame.cpp TxMsgList.cpp Tx_MDIChildBase.cpp
+         Tx_MDIChildBase.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+         TxMsgList.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(150): error C2440: '=' : no se puede realizar la conversión de 'char [256]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(176): error C2440: '=' : no se puede realizar la conversión de 'char [256]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(223): error C2440: '=' : no se puede realizar la conversión de 'char [32]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(298): error C2440: '=' : no se puede realizar la conversión de 'char [256]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(547): error C2664: 'sscanf' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(555): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(567): error C2664: 'sscanf' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(572): error C2664: 'int CString::CompareNoCase(LPCTSTR) const' : no se puede convertir el parámetro 1 de 'const char [7]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(576): error C2664: 'int CString::CompareNoCase(LPCTSTR) const' : no se puede convertir el parámetro 1 de 'const char [8]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(582): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(591): error C2664: 'int CString::Insert(int,TCHAR)' : no se puede convertir el parámetro 2 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1338): error C2664: 'strcpy' : no se puede convertir el parámetro 1 de 'WCHAR [32]' a 'char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1451): error C2664: 'int CString::Replace(TCHAR,TCHAR)' : no se puede convertir el parámetro 1 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1466): error C2664: 'int CString::Insert(int,TCHAR)' : no se puede convertir el parámetro 2 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1478): error C2668: 'CString::Insert' : llamada ambigua a una función sobrecargada
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(617): puede ser 'int CString::Insert(int,unsigned short)'
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(615): o       'int CString::Insert(int,TCHAR)'
+                 al hacer coincidir la lista de argumentos '(int, char)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1483): error C2664: 'int CString::Replace(TCHAR,TCHAR)' : no se puede convertir el parámetro 1 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1495): error C2664: 'int CString::Insert(int,TCHAR)' : no se puede convertir el parámetro 2 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1500): error C2668: 'CString::Insert' : llamada ambigua a una función sobrecargada
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(617): puede ser 'int CString::Insert(int,unsigned short)'
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(615): o       'int CString::Insert(int,TCHAR)'
+                 al hacer coincidir la lista de argumentos '(int, char)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsglist.cpp(1507): error C2664: 'int CString::Insert(int,TCHAR)' : no se puede convertir el parámetro 2 de 'const char [2]' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+         TxMsgChildFrame.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(38): warning C4005: 'defFORMAT_INT64_DECIMAL' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(461) : vea la definición anterior de 'defFORMAT_INT64_DECIMAL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(40): warning C4005: 'defFORMAT_INT64_HEX' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(462) : vea la definición anterior de 'defFORMAT_INT64_HEX'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(41): warning C4005: 'defSTR_FORMAT_PHY_VALUE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(463) : vea la definición anterior de 'defSTR_FORMAT_PHY_VALUE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(42): warning C4005: 'defFLC_CREATE_FAILED' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(480) : vea la definición anterior de 'defFLC_CREATE_FAILED'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(43): warning C4005: 'defCOMBO_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(481) : vea la definición anterior de 'defCOMBO_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(44): warning C4005: 'defCOMBO_LIST' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(482) : vea la definición anterior de 'defCOMBO_LIST'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(45): warning C4005: 'defEDIT_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(483) : vea la definición anterior de 'defEDIT_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(46): warning C4005: 'defNUM_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(484) : vea la definición anterior de 'defNUM_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(422) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.h(41): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txmsgchildframe.cpp(112): error C2664: 'LoadLibraryW' : no se puede convertir el parámetro 1 de 'const char [21]' a 'LPCWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         TxLINDataStore.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+         TxFlexrayMsgHandlerDlg.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(55): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(60): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(63): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(66): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(71): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(75): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txflexraymsghandlerdlg.cpp(79): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         TxFlexRayDataStore.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+         TransmitMsg_LIN.cpp
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(355) : vea la declaración de '_wcsupr'
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(349) : vea la declaración de '_wcslwr'
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\swprintf.inl(97) : vea la declaración de 'vswprintf'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(38): warning C4005: 'defFORMAT_INT64_DECIMAL' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(461) : vea la definición anterior de 'defFORMAT_INT64_DECIMAL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(40): warning C4005: 'defFORMAT_INT64_HEX' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(462) : vea la definición anterior de 'defFORMAT_INT64_HEX'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(41): warning C4005: 'defSTR_FORMAT_PHY_VALUE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(463) : vea la definición anterior de 'defSTR_FORMAT_PHY_VALUE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(42): warning C4005: 'defFLC_CREATE_FAILED' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(480) : vea la definición anterior de 'defFLC_CREATE_FAILED'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(43): warning C4005: 'defCOMBO_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(481) : vea la definición anterior de 'defCOMBO_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(44): warning C4005: 'defCOMBO_LIST' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(482) : vea la definición anterior de 'defCOMBO_LIST'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(45): warning C4005: 'defEDIT_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(483) : vea la definición anterior de 'defEDIT_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(46): warning C4005: 'defNUM_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(484) : vea la definición anterior de 'defNUM_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(422) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.h(41): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(392): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [5]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(393): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [5]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(395): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [6]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(428): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(432): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(436): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : no se puede convertir el parámetro 2 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(516): error C2664: 'strlen' : no se puede convertir el parámetro 1 de 'TCHAR *' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(562): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(631): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [12]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(662): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(667): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(671): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : no se puede convertir el parámetro 2 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1026): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [13]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1060): error C2665: 'AfxMessageBox' : ninguna de las 2 sobrecargas pudo convertir todos los tipos de argumento
+                 c:\winddk\7600.16385.1\inc\mfc42\afxwin.h(4658): puede ser 'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+                 c:\winddk\7600.16385.1\inc\mfc42\afxwin.h(4660): o       'int AfxMessageBox(UINT,UINT,UINT)'
+                 al hacer coincidir la lista de argumentos '(const char [56], long)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1081): error C2664: 'int CString::CompareNoCase(LPCTSTR) const' : no se puede convertir el parámetro 1 de 'const char [6]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1133): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1138): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1142): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1146): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1158): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1193): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1222): error C2664: 'int CListCtrl::InsertItem(int,LPCTSTR,int)' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1228): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1233): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1237): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1251): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1266): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1277): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1293): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1297): error C2440: '=' : no se puede realizar la conversión de 'const char [1]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1304): error C2440: '=' : no se puede realizar la conversión de 'const char [2]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1410): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1445): error C2664: 'CComboBox::AddString' : no se puede convertir el parámetro 1 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1528): error C2664: 'CTransmitMsgLIN::bSetStatusText' : no se puede convertir el parámetro 1 de 'const wchar_t [1]' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1542): warning C4805: '==' : combinación no segura del tipo 'BOOL' y el tipo 'bool' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1544): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1548): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1555): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1562): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1571): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1613): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1675): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1677): error C2664: 'CTransmitMsgLIN::bSetStatusText' : no se puede convertir el parámetro 1 de 'const wchar_t [1]' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1686): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1774): error C2664: 'int CString::Find(TCHAR) const' : no se puede convertir el parámetro 1 de 'const char *' a 'TCHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1777): error C2668: 'CString::ReverseFind' : llamada ambigua a una función sobrecargada
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(639): puede ser 'int CString::ReverseFind(unsigned short) const'
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(637): o       'int CString::ReverseFind(TCHAR) const'
+                 al hacer coincidir la lista de argumentos '(char)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1784): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'LPCTSTR' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1788): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'LPCTSTR' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1821): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1822): error C2664: 'CTransmitMsgLIN::bSetStatusText' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1897): error C2664: 'int CListCtrl::InsertItem(int,LPCTSTR)' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1907): warning C4244: '=' : conversión de 'double' a 'UINT64'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1926): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'char [1024]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1928): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1961): error C2664: 'atof' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1962): error C2664: 'atof' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1968): error C2664: 'atof' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(1969): error C2664: 'atof' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2029): warning C4244: '=' : conversión de 'USHORT' a 'unsigned char'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2052): error C2668: 'CString::Find' : llamada ambigua a una función sobrecargada
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(634): puede ser 'int CString::Find(unsigned short) const'
+                 c:\winddk\7600.16385.1\inc\mfc42\afx.h(632): o       'int CString::Find(TCHAR) const'
+                 al hacer coincidir la lista de argumentos '(char)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2066): warning C4805: '==' : combinación no segura del tipo 'BOOL' y el tipo 'bool' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2068): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2072): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2077): error C2664: 'int CString::CompareNoCase(LPCTSTR) const' : no se puede convertir el parámetro 1 de 'const char [2]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2093): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2120): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [5]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2124): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [5]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2225): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [17]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2235): error C2440: '=' : no se puede realizar la conversión de 'const char [1]' a 'LPWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2311): warning C4805: '==' : combinación no segura del tipo 'BOOL' y el tipo 'bool' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2313): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2317): error C2664: 'strtol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2322): warning C4244: '=' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2476): warning C4018: '>' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2481): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2488): warning C4244: 'argumento' : conversión de '__int64' a 'DWORD'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2507): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2511): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2578): error C2664: 'atof' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2583): error C2664: 'atoi' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2598): warning C4244: '=' : conversión de '__int64' a 'INT'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2603): warning C4244: '=' : conversión de '__int64' a 'INT'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2612): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2616): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2774): error C2065: 'pouCurrSignal' : identificador no declarado
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(2787): warning C4244: 'inicializando' : conversión de 'double' a 'UINT64'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3127): error C2664: 'int CString::Compare(LPCTSTR) const' : no se puede convertir el parámetro 1 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3208): warning C4244: '=' : conversión de '__int64' a 'UCHAR'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3225): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3226): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3242): error C2664: 'atoi' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3256): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3285): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3286): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3300): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3309): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3323): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3341): warning C4244: '=' : conversión de 'TCHAR' a 'char'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3352): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3371): error C2664: 'atol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3373): error C2664: 'atol' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3378): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3386): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3406): warning C4244: '=' : conversión de 'TCHAR' a 'char'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3428): error C2664: 'CTransmitMsgLIN::bSetStatusText' : no se puede convertir el parámetro 1 de 'const wchar_t [1]' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3571): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [6]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3587): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [13]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3610): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3638): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'char [260]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3647): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3648): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3659): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg_lin.cpp(3667): warning C4244: 'argumento' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+         TransmitMsg.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(355) : vea la declaración de '_wcsupr'
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(349) : vea la declaración de '_wcslwr'
+     1>c:\winddk\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\swprintf.inl(97) : vea la declaración de 'vswprintf'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(38): warning C4005: 'defFORMAT_INT64_DECIMAL' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(461) : vea la definición anterior de 'defFORMAT_INT64_DECIMAL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(40): warning C4005: 'defFORMAT_INT64_HEX' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(462) : vea la definición anterior de 'defFORMAT_INT64_HEX'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(41): warning C4005: 'defSTR_FORMAT_PHY_VALUE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(463) : vea la definición anterior de 'defSTR_FORMAT_PHY_VALUE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(42): warning C4005: 'defFLC_CREATE_FAILED' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(480) : vea la definición anterior de 'defFLC_CREATE_FAILED'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(43): warning C4005: 'defCOMBO_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(481) : vea la definición anterior de 'defCOMBO_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(44): warning C4005: 'defCOMBO_LIST' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(482) : vea la definición anterior de 'defCOMBO_LIST'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(45): warning C4005: 'defEDIT_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(483) : vea la definición anterior de 'defEDIT_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(46): warning C4005: 'defNUM_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(484) : vea la definición anterior de 'defNUM_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(422) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.h(41): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(169): warning C4800: 'LPARAM' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(258): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [5]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(259): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [5]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(261): error C2440: 'inicializando' : no se puede realizar la conversión de 'const wchar_t [6]' a 'CHAR'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(293): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(297): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(301): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : no se puede convertir el parámetro 2 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(347): error C2664: 'strlen' : no se puede convertir el parámetro 1 de 'TCHAR *' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(365): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(424): error C2664: 'int CListCtrl::InsertItem(int,LPCTSTR)' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(429): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(433): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(437): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(442): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(446): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(450): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(455): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(466): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(641): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(646): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(650): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : no se puede convertir el parámetro 2 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(718): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(723): error C2664: 'CListCtrl::GetStringWidth' : no se puede convertir el parámetro 1 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(727): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : no se puede convertir el parámetro 2 de 'CHAR [50]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(748): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [16]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(754): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [16]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(843): warning C4805: '==' : combinación no segura del tipo 'BOOL' y el tipo 'bool' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(923): error C2665: 'AfxMessageBox' : ninguna de las 2 sobrecargas pudo convertir todos los tipos de argumento
+                 c:\winddk\7600.16385.1\inc\mfc42\afxwin.h(4658): puede ser 'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+                 c:\winddk\7600.16385.1\inc\mfc42\afxwin.h(4660): o       'int AfxMessageBox(UINT,UINT,UINT)'
+                 al hacer coincidir la lista de argumentos '(const char [56], long)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1067): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [16]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1071): error C2664: 'CWnd::SetWindowTextW' : no se puede convertir el parámetro 1 de 'const char [16]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1085): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1110): error C2664: 'int CListCtrl::InsertItem(int,LPCTSTR)' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1116): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1120): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1124): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1129): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1133): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1137): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1143): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1155): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1209): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1224): error C2664: 'int CListCtrl::GetItemText(int,int,LPTSTR,int) const' : no se puede convertir el parámetro 3 de 'char [256]' a 'LPTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1225): error C2664: 'int CListCtrl::GetItemText(int,int,LPTSTR,int) const' : no se puede convertir el parámetro 3 de 'char [256]' a 'LPTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1245): error C2664: 'int CListCtrl::GetItemText(int,int,LPTSTR,int) const' : no se puede convertir el parámetro 3 de 'char [256]' a 'LPTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1246): error C2664: 'int CListCtrl::GetItemText(int,int,LPTSTR,int) const' : no se puede convertir el parámetro 3 de 'char [256]' a 'LPTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1388): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [5]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1397): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [5]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1401): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [5]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1417): error C2664: 'int CListCtrl::InsertItem(int,LPCTSTR)' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1420): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1421): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1422): error C2664: 'CListCtrl::SetItemText' : no se puede convertir el parámetro 3 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1454): error C2664: 'int CListCtrl::GetItemText(int,int,LPTSTR,int) const' : no se puede convertir el parámetro 3 de 'char [260]' a 'LPTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1457): warning C4244: '=' : conversión de 'unsigned long' a 'unsigned char'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.cpp(1461): warning C4244: '=' : conversión de 'unsigned long' a 'unsigned char'; posible pérdida de datos
+         TXWindowFlexRay.cpp
+     1>c:\winddk\7600.16385.1\inc\mfc42\afxdllx.h(53): error C2039: 'm_pClassInit' : no es un miembro de 'AFX_MODULE_STATE'
+                 c:\winddk\7600.16385.1\inc\mfc42\afxstat_.h(206) : vea la declaración de 'AFX_MODULE_STATE'
+     1>c:\winddk\7600.16385.1\inc\mfc42\afxdllx.h(54): error C2039: 'm_pFactoryInit' : no es un miembro de 'AFX_MODULE_STATE'
+                 c:\winddk\7600.16385.1\inc\mfc42\afxstat_.h(206) : vea la declaración de 'AFX_MODULE_STATE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\struct_lin.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\xmldefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(451): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(457): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(458): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(464): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(465): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(471): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(472): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(478): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'const char [3]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(479): error C2440: '=' : no se puede realizar la conversión de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\xmlutils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\msgsignal_datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(473): warning C4005: 'defNO_OF_CHANNELS' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(163) : vea la definición anterior de 'defNO_OF_CHANNELS'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\base_flexray_buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\basedefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(38): warning C4005: 'defFORMAT_INT64_DECIMAL' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(461) : vea la definición anterior de 'defFORMAT_INT64_DECIMAL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(40): warning C4005: 'defFORMAT_INT64_HEX' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(462) : vea la definición anterior de 'defFORMAT_INT64_HEX'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(41): warning C4005: 'defSTR_FORMAT_PHY_VALUE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(463) : vea la definición anterior de 'defSTR_FORMAT_PHY_VALUE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(42): warning C4005: 'defFLC_CREATE_FAILED' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(480) : vea la definición anterior de 'defFLC_CREATE_FAILED'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(43): warning C4005: 'defCOMBO_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(481) : vea la definición anterior de 'defCOMBO_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(44): warning C4005: 'defCOMBO_LIST' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(482) : vea la definición anterior de 'defCOMBO_LIST'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(45): warning C4005: 'defEDIT_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(483) : vea la definición anterior de 'defEDIT_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(46): warning C4005: 'defNUM_ITEM' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(484) : vea la definición anterior de 'defNUM_ITEM'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\hashdefines.h(422) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\transmitmsg.h(41): warning C4005: 'STR_EMPTY' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\utility\utility_structs.h(50) : vea la definición anterior de 'STR_EMPTY'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(35): error C2146: error de sintaxis : falta ';' delante del identificador 'TXFlexRayWindowDLL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(35): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(35): error C2078: hay demasiados inicializadores
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(51): error C3861: 'AfxInitExtensionModule': no se encontró el identificador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(55): error C2061: error de sintaxis : identificador 'CDynLinkLibrary'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(70): error C3861: 'AfxTermExtensionModule': no se encontró el identificador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(153): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(157): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(191): error C2664: 'CMDIChildWnd::Create' : no se puede convertir el parámetro 2 de 'const char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(237): error C2228: el operando izquierdo de '.hResource' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(281): warning C4800: 'LPARAM' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray.cpp(282): warning C4800: 'LPARAM' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         LinFlexListCtrl.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(260): warning C4805: '==' : combinación no segura del tipo 'bool' y el tipo 'BOOL' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(432): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(643): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(735): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(814): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\linflexlistctrl.cpp(913): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         HeaderCtrlEx.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\txwindowflexray_resource.h(579): warning C4005: 'IDC_STATIC' : redefinición de macro
+                 c:\winddk\7600.16385.1\inc\mfc42\afxres.h(309) : vea la definición anterior de 'IDC_STATIC'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\headerctrlex.cpp(22): error C2664: 'RegisterWindowMessageW' : no se puede convertir el parámetro 1 de 'const char [39]' a 'LPCWSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\headerctrlex.cpp(380): error C2664: 'AfxTrace' : no se puede convertir el parámetro 1 de 'const char [48]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\headerctrlex.cpp(534): error C2664: 'AfxTrace' : no se puede convertir el parámetro 1 de 'const char [15]' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         FlexListCtrl.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(142): error C2664: 'strtoul' : no se puede convertir el parámetro 1 de 'LPWSTR' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(143): error C2664: 'strtoul' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(148): error C2664: 'strtoul' : no se puede convertir el parámetro 1 de 'LPWSTR' a 'const char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(149): error C2664: 'strtoul' : no se puede convertir el parámetro 1 de 'CString' a 'const char *'
+                 No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(319): warning C4805: '==' : combinación no segura del tipo 'bool' y el tipo 'BOOL' en la operación
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(767): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(859): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(939): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(1031): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(1096): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\flexlistctrl.cpp(1195): error C2664: 'void CString::Format(LPCTSTR,...)' : no se puede convertir el parámetro 1 de 'char *' a 'LPCTSTR'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         HexEdit.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\chexedit\hexedit.cpp(38): error C2664: 'wcslen' : no se puede convertir el parámetro 1 de 'char *' a 'const wchar_t *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\chexedit\hexedit.cpp(39): error C2664: 'wcscpy' : no se puede convertir el parámetro 1 de 'char *' a 'wchar_t *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\chexedit\hexedit.cpp(79): error C2665: 'wcschr' : ninguna de las 2 sobrecargas pudo convertir todos los tipos de argumento
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(282): puede ser 'const wchar_t *wcschr(const wchar_t *,wchar_t)'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(376): o       'wchar_t *wcschr(wchar_t *,wchar_t)'
+                 al hacer coincidir la lista de argumentos '(char *, UINT)'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\chexedit\hexedit.cpp(144): error C2664: 'strcpy' : no se puede convertir el parámetro 1 de 'WCHAR [32]' a 'char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\txwindowflexray\chexedit\hexedit.cpp(189): error C2664: 'strcpy' : no se puede convertir el parámetro 1 de 'WCHAR [32]' a 'char *'
+                 Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+         Generando código...
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TXWindowFlexRay\TXWindowFlexRay.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:31.78

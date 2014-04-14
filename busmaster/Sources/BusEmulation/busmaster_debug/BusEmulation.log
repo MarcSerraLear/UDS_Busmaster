@@ -1,0 +1,90 @@
+﻿Build started 09/04/2014 11:28:34 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\BusEmulation.vcxproj" on node 4 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /Oicf /h "BusEmulation.h" /iid "BusEmulation_i.c" /proxy "BusEmulation_p.c" /tlb "busmaster_debug\BusEmulation.tlb" BusEmulation.idl 
+         Processing .\BusEmulation.idl
+         BusEmulation.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BusEmulation.cpp SimENG.cpp
+         BusEmulation.cpp
+         SimENG.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\WinDDK\7600.16385.1\inc\atl71\atlmem.h(112): warning C4127: la expresión condicional es constante
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(355) : vea la declaración de '_wcsupr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(349) : vea la declaración de '_wcslwr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : vea la declaración de 'vswprintf'
+         Generando código...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt BusEmulation_i.c
+         BusEmulation_i.c
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt BusEmulation_p.c dlldata.c
+         BusEmulation_p.c
+         dlldata.c
+         Generando código...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /l"0x0409" /Ibusmaster_debug\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\BusEmulation.res" BusEmulation.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\busmaster_debug\BusEmulation.exe) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\busmaster_debug\BusEmulation.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/busmaster_debug\BusEmulation.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 RpcRT4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"busmaster_debug\BusEmulation.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"busmaster_debug\BusEmulation.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib" busmaster_debug\BusEmulation.res
+         busmaster_debug\BusEmulation.obj
+         busmaster_debug\SimENG.obj
+         busmaster_debug\BusEmulation_i.obj
+         busmaster_debug\BusEmulation_p.obj
+         busmaster_debug\dlldata.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+     1>atls.lib(atlcommodule.obj) : warning LNK4078: se encontraron varias secciones 'ATL' con atributos diferentes (40301040)
+     1>BusEmulation.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>SimENG.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>atls.lib(atlbase.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>atls.lib(atlcommodule.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>atls.lib(stdafx.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         BusEmulation.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\busmaster_debug\BusEmulation.exe
+       PostBuildEvent:
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN/busmaster_debug\BusEmulation.exe" /RegServer
+         :VCEnd
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BusEmulation\BusEmulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.93

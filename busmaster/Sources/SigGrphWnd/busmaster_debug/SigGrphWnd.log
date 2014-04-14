@@ -1,0 +1,83 @@
+﻿Build started 09/04/2014 11:29:02 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SigGrphWnd\SigGrphWnd.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0502 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" GraphBottomView.cpp GraphChildFrame.cpp GraphExportDlg.cpp GraphLeftView.cpp GraphRightView.cpp SigGrphWnd.cpp
+         GraphBottomView.cpp
+         GraphChildFrame.cpp
+         GraphExportDlg.cpp
+         GraphLeftView.cpp
+         GraphRightView.cpp
+         SigGrphWnd.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+         Generando código...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0502 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" GraphConfiguration.cpp GraphElement.cpp GraphList.cpp GraphParameters.cpp GraphSink.cpp MDIChildBase.cpp MessageList.cpp TimeManager.cpp
+         GraphConfiguration.cpp
+         GraphElement.cpp
+         GraphList.cpp
+         GraphParameters.cpp
+         GraphSink.cpp
+         MDIChildBase.cpp
+         MessageList.cpp
+         TimeManager.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SigGrphWnd\busmaster_debug\SigGrphWnd.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\busmaster_debug\SigGrphWnd.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/busmaster_debug\SigGrphWnd.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /NODEFAULTLIB:daouuid.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"busmaster_debug\SigGrphWnd.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\SigGrphWnd.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+          /DLL busmaster_debug\SigGrphWnd.res
+         busmaster_debug\GraphBottomView.obj
+         busmaster_debug\GraphChildFrame.obj
+         busmaster_debug\GraphConfiguration.obj
+         busmaster_debug\GraphElement.obj
+         busmaster_debug\GraphExportDlg.obj
+         busmaster_debug\GraphLeftView.obj
+         busmaster_debug\GraphList.obj
+         busmaster_debug\GraphParameters.obj
+         busmaster_debug\GraphRightView.obj
+         busmaster_debug\GraphSink.obj
+         busmaster_debug\MDIChildBase.obj
+         busmaster_debug\MessageList.obj
+         busmaster_debug\MultiLanguage.obj
+         busmaster_debug\SigGrphWnd.obj
+         busmaster_debug\TimeManager.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\ReleaseUMinSize\DMGraph.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\SigGrphWnd.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\SigGrphWnd.exp
+     1>GraphBottomView.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphChildFrame.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphConfiguration.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphElement.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphExportDlg.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphLeftView.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphList.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphParameters.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphRightView.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>GraphSink.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>MDIChildBase.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>MessageList.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>SigGrphWnd.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>TimeManager.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(ColorSelector.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(FFListCtrl.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(OffScreenDC.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         SigGrphWnd.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SigGrphWnd\busmaster_debug\SigGrphWnd.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SigGrphWnd\SigGrphWnd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.62

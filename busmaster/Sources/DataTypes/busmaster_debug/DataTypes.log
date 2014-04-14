@@ -1,0 +1,27 @@
+﻿Build started 09/04/2014 10:00:00 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\DataTypes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _LIB /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"DataTypes_StdAfx.h" /Fp"busmaster_debug\DataTypes.pch" /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" UDS_DataTypes.cpp
+         UDS_DataTypes.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\busmaster_debug\DataTypes.lib) does not match the Library's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /NOLOGO busmaster_debug\Cluster.obj
+         busmaster_debug\Defines_FlexRay.obj
+         busmaster_debug\FEALData.obj
+         busmaster_debug\Filter_Datatypes.obj
+         busmaster_debug\FLEXRAY_Datatypes.obj
+         busmaster_debug\J1939_DataTypes.obj
+         busmaster_debug\Log_Datatypes.obj
+         busmaster_debug\MainSubEntry.obj
+         busmaster_debug\MsgBufVSE.obj
+         busmaster_debug\MsgBufVVSE.obj
+         busmaster_debug\MsgSignal_Datatypes.obj
+         busmaster_debug\ProjConfig_DataTypes.obj
+         busmaster_debug\Struct_BUS.obj
+         busmaster_debug\UDS_DataTypes.obj
+         DataTypes.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\busmaster_debug\DataTypes.lib
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\DataTypes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.00

@@ -1,0 +1,48 @@
+﻿Build started 09/04/2014 9:49:08 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TXWindow\TXWindow.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" CMsgSignalTemp.cpp
+     1>cl : Línea de comandos warning D9007: '/Gm' requiere '/Zi o /ZI'; opción omitida
+         CMsgSignalTemp.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TXWindow\Debug\TXWindow.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Debug\TXWindow.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Debug\TXWindow.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug\TXWindow.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\TXWindow.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\DIL_Interface.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/lib/intl.lib" /DLL Debug\TXWindow.res
+         Debug\CMsgSignalTemp.obj
+         Debug\FlexListCtrl.obj
+         Debug\MultiLanguage.obj
+         Debug\SignalDetailsDlg.obj
+         Debug\Tx_MDIChildBase.obj
+         Debug\TxFlags.obj
+         Debug\TxFunctionsView.obj
+         Debug\TxMsgBlocksView.obj
+         Debug\TxMsgChildFrame.obj
+         Debug\TxMsgDetailsView.obj
+         Debug\TxMsgListView.obj
+         Debug\TxMsgManager.obj
+         Debug\TXWindow.obj
+         Debug\TxWndDataStore.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\Debug\DataTypes.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\Debug\Utils.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\Debug\DIL_Interface.lib
+     1>LINK : fatal error LNK1104: no se puede abrir el archivo 'C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\DIL_Interface.lib'
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\TXWindow\TXWindow.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.47

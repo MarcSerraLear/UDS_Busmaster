@@ -1,0 +1,38 @@
+﻿Build started 09/04/2014 10:03:48 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_Kvaser_CAN\CAN_Kvaser_CAN.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         cmd GetKvaserLib.bat
+         :VCEnd
+         Microsoft Windows [Versión 6.1.7601]
+         Copyright (c) 2009 Microsoft Corporation. Reservados todos los derechos.
+         
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_Kvaser_CAN>
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_Kvaser_CAN\busmaster_debug\CAN_Kvaser_CAN.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\busmaster_debug\CAN_Kvaser_CAN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       PreLinkEvent:
+         copy "%TMP%\canlib32.lib" ".\..\bin\libs\busmaster_debug\canlib32.lib"
+         del "%TMP%\canlib32.lib"
+         
+         :VCEnd
+         El sistema no puede encontrar el archivo especificado.
+         No se pudo encontrar C:\Users\MSERRA~1\AppData\Local\Temp\canlib32.lib
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/busmaster_debug\CAN_Kvaser_CAN.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 EXTERNAL/Lib/MS/canlib32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"busmaster_debug\CAN_Kvaser_CAN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+          /DLL busmaster_debug\CAN_Kvaser_CAN.res
+         busmaster_debug\AcceptanceFilterDlg.obj
+         busmaster_debug\CAN_Kvaser_CAN.obj
+         busmaster_debug\CANRegAnalysis.obj
+         busmaster_debug\ChangeRegisters.obj
+         busmaster_debug\HardwareListing.obj
+         busmaster_debug\MultiLanguage.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\CommonClass.lib
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.exp
+     1>Utils.lib(RadixEdit.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         CAN_Kvaser_CAN.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_Kvaser_CAN\busmaster_debug\CAN_Kvaser_CAN.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_Kvaser_CAN\CAN_Kvaser_CAN.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.76

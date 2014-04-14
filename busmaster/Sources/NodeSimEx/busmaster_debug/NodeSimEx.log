@@ -1,0 +1,74 @@
+﻿Build started 09/04/2014 11:29:26 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\NodeSimEx\NodeSimEx.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\NodeSimEx\busmaster_debug\NodeSimEx.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\busmaster_debug\NodeSimEx.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/busmaster_debug\NodeSimEx.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"busmaster_debug\NodeSimEx.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DIL_Interface.lib"
+         "Winmm.lib"
+          /DLL busmaster_debug\NodeSimEx.res
+         busmaster_debug\AppServices.obj
+         busmaster_debug\AppServicesCAN.obj
+         busmaster_debug\AppServicesJ1939.obj
+         busmaster_debug\AppServicesLIN.obj
+         busmaster_debug\BuildProgram.obj
+         busmaster_debug\BusEventHandlerDlg.obj
+         busmaster_debug\ComputeCheckSum.obj
+         busmaster_debug\DefineTimerHandler.obj
+         busmaster_debug\DLLHandlerDlg.obj
+         busmaster_debug\EditFrameWnd.obj
+         busmaster_debug\ErrHandlerDlg.obj
+         busmaster_debug\ErrHandlerDlgLIN.obj
+         busmaster_debug\EventHandlerDlg.obj
+         busmaster_debug\ExecuteFunc.obj
+         busmaster_debug\ExecuteManager.obj
+         busmaster_debug\ExploreMsgSg.obj
+         busmaster_debug\FileView.obj
+         busmaster_debug\Flags.obj
+         busmaster_debug\FnsTreeView.obj
+         busmaster_debug\FunctionEditorBase.obj
+         busmaster_debug\FunctionEditorDoc.obj
+         busmaster_debug\FunctionView.obj
+         busmaster_debug\GlobalObj.obj
+         busmaster_debug\HandlerFunc.obj
+         busmaster_debug\IncludeHeaderDlg.obj
+         busmaster_debug\KeyValue.obj
+         busmaster_debug\MsgHandlerDlg.obj
+         busmaster_debug\MultiLanguage.obj
+         busmaster_debug\NodeDetailsDlg.obj
+         busmaster_debug\NodeSim.obj
+         busmaster_debug\NodeSimEx.obj
+         busmaster_debug\NodeSimEx_stdafx.obj
+         busmaster_debug\OffScreenDC.obj
+         busmaster_debug\OutWnd.obj
+         busmaster_debug\SelectFunctions.obj
+         busmaster_debug\SetResetTimer.obj
+         busmaster_debug\Sim_MDIChildBase.obj
+         busmaster_debug\SimSysConfigDetails.obj
+         busmaster_debug\SimSysDetView.obj
+         busmaster_debug\SimSysManager.obj
+         busmaster_debug\SimSysNodeInfo.obj
+         busmaster_debug\SimSysTreeView.obj
+         busmaster_debug\SimSysWnd.obj
+         busmaster_debug\SplFileDlg.obj
+         busmaster_debug\UtlityDlg.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DIL_Interface.lib
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.exp
+     1>AppServices.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>ComputeCheckSum.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>NodeSim.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>OffScreenDC.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(RadixEdit.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(UtilFunctions.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>DataTypes.lib(Defines_FlexRay.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(MsgInterpretation.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         NodeSimEx.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\NodeSimEx\busmaster_debug\NodeSimEx.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\NodeSimEx\NodeSimEx.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.12

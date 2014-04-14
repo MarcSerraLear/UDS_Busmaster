@@ -1,0 +1,20 @@
+﻿Build started 09/04/2014 9:48:35 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIN_ISOLAR_EVE_VLIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LIN_ISOLAR_EVE_VLIN.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EVE_LIN_Controller.cpp HardwareListing.cpp LIN_ISOLAR_EVE_VLIN.cpp LIN_ISOLAR_EVE_VLIN_stdafx.cpp SocketUDP.cpp
+         SocketUDP.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\lin_isolar_eve_vlin\socketudp.cpp(402): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "stdafx.h"' al código fuente?
+         LIN_ISOLAR_EVE_VLIN_stdafx.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\lin_isolar_eve_vlin\lin_isolar_eve_vlin_stdafx.cpp(25): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "stdafx.h"' al código fuente?
+         LIN_ISOLAR_EVE_VLIN.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\lin_isolar_eve_vlin\lin_isolar_eve_vlin.cpp(1201): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "stdafx.h"' al código fuente?
+         HardwareListing.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\lin_isolar_eve_vlin\hardwarelisting.cpp(857): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "stdafx.h"' al código fuente?
+         EVE_LIN_Controller.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\lin_isolar_eve_vlin\eve_lin_controller.cpp(110): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "stdafx.h"' al código fuente?
+         Generando código...
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.55

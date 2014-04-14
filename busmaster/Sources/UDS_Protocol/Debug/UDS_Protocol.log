@@ -1,0 +1,22 @@
+﻿Build started 16/09/2013 3:19:35 PM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\UDS_Protocol.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D UDS_PROTOCOL_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp UDS_NegRespMng.cpp UDS_Protocol.cpp UDS_TimmingWnd.cpp UDSMainWnd.cpp UDSSettingsWnd.cpp
+         UDSSettingsWnd.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         UDSMainWnd.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         UDS_TimmingWnd.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         UDS_Protocol.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         UDS_NegRespMng.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Generando código...
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\UDS_Protocol.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.77

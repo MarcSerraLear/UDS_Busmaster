@@ -1,0 +1,230 @@
+﻿Build started 09/04/2014 9:48:27 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_ETAS_BOA\CAN_ETAS_BOA_1_5.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" /D "BOA_VERSION=BOA_VERSION_1_5" CAN_ETAS_BOA.cpp ChangeRegisters_CAN_ETAS_BOA.cpp HardwareListing.cpp ..\Application\MultiLanguage.cpp
+     1>cl : Línea de comandos warning D9007: '/Gm' requiere '/Zi o /ZI'; opción omitida
+         CAN_ETAS_BOA.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>CAN_ETAS_BOA.cpp(691): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>CAN_ETAS_BOA.cpp(692): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : vea la declaración de 'strcat'
+     1>CAN_ETAS_BOA.cpp(693): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : vea la declaración de 'strcat'
+     1>CAN_ETAS_BOA.cpp(707): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>CAN_ETAS_BOA.cpp(708): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : vea la declaración de 'strcat'
+     1>CAN_ETAS_BOA.cpp(709): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : vea la declaración de 'strcat'
+     1>CAN_ETAS_BOA.cpp(1388): warning C4018: '>=' : no coinciden signed/unsigned
+     1>CAN_ETAS_BOA.cpp(2192): warning C4018: '<' : no coinciden signed/unsigned
+     1>CAN_ETAS_BOA.cpp(2204): warning C4018: '>=' : no coinciden signed/unsigned
+     1>CAN_ETAS_BOA.cpp(2421): warning C4100: 'hParent' : parámetro formal sin referencia
+         ChangeRegisters_CAN_ETAS_BOA.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+         HardwareListing.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/struct_can.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>HardwareListing.cpp(661): warning C4189: 'nArrayIndex' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>HardwareListing.cpp(656): warning C4189: 'nSelected' : la variable local se ha inicializado pero no se hace referencia a ella
+         MultiLanguage.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>..\Application\MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : vea la declaración de 'sscanf'
+     1>..\Application\MultiLanguage.cpp(144): warning C4189: 'nPrimaryLang' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(146): warning C4189: 'lcid' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(145): warning C4189: 'nSubLang' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(328): warning C4189: 'nPrimaryLang' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(331): warning C4189: 'nLocales' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(330): warning C4189: 'lcid' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(329): warning C4189: 'nSubLang' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\Application\MultiLanguage.cpp(388): warning C4189: 'nSubLang' : la variable local se ha inicializado pero no se hace referencia a ella
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_ETAS_BOA\Debug\CAN_ETAS_BOA_1_5.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\Debug\CAN_ETAS_BOA_1_5.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/Debug\CAN_ETAS_BOA_1_5.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/Release/CAN_ETAS_BOA_1_5.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\CAN_ETAS_BOA_1_5.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/lib/intl.lib" /DLL Debug\CAN_ETAS_BOA.res
+         Debug\CAN_ETAS_BOA.obj
+         Debug\ChangeRegisters_CAN_ETAS_BOA.obj
+         Debug\HardwareListing.obj
+         Debug\MultiLanguage.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\Debug\DataTypes.lib
+     1>nafxcwd.lib(stdafx.obj) : warning LNK4078: se encontraron varias secciones 'ATL' con atributos diferentes (40301040)
+     1>mfcs42d.lib(dllmodul.obj) : error LNK2005: ya se definió "class AFX_MODULE_STATE * __stdcall AfxGetStaticModuleState(void)" (?AfxGetStaticModuleState@@YGPAVAFX_MODULE_STATE@@XZ) en nafxcwd.lib(dllmodul.obj)
+     1>mfcs42d.lib(dllmodul.obj) : error LNK2005: ya se definió _DllMain@12 en nafxcwd.lib(dllmodul.obj)
+     1>mfcs42d.lib(dllmodul.obj) : error LNK2005: ya se definió _RawDllMain@12 en nafxcwd.lib(dllmodul.obj)
+     1>mfcs42d.lib(dllmodul.obj) : error LNK2005: ya se definió __afxForceUSRDLL en nafxcwd.lib(dllmodul.obj)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CSize::CSize(void)" (??0CSize@@QAE@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CSize::CSize(int,int)" (??0CSize@@QAE@HH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CSize::CSize(struct tagSIZE)" (??0CSize@@QAE@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CSize::CSize(struct tagPOINT)" (??0CSize@@QAE@UtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CSize::CSize(unsigned long)" (??0CSize@@QAE@K@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CSize::operator==(struct tagSIZE)const " (??8CSize@@QBEHUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CSize::operator!=(struct tagSIZE)const " (??9CSize@@QBEHUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CSize::operator+=(struct tagSIZE)" (??YCSize@@QAEXUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CSize __thiscall CSize::operator+(struct tagSIZE)const " (??HCSize@@QBE?AV0@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CSize __thiscall CSize::operator-(struct tagSIZE)const " (??GCSize@@QBE?AV0@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CPoint::CPoint(void)" (??0CPoint@@QAE@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CPoint::CPoint(int,int)" (??0CPoint@@QAE@HH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CPoint::CPoint(struct tagPOINT)" (??0CPoint@@QAE@UtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CPoint::CPoint(struct tagSIZE)" (??0CPoint@@QAE@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CPoint::Offset(int,int)" (?Offset@CPoint@@QAEXHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CPoint::operator==(struct tagPOINT)const " (??8CPoint@@QBEHUtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CPoint::operator!=(struct tagPOINT)const " (??9CPoint@@QBEHUtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CPoint::operator+=(struct tagSIZE)" (??YCPoint@@QAEXUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CPoint::operator-=(struct tagSIZE)" (??ZCPoint@@QAEXUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CPoint::operator+=(struct tagPOINT)" (??YCPoint@@QAEXUtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint __thiscall CPoint::operator-(struct tagSIZE)const " (??GCPoint@@QBE?AV0@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint __thiscall CPoint::operator-(void)const " (??GCPoint@@QBE?AV0@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint __thiscall CPoint::operator+(struct tagPOINT)const " (??HCPoint@@QBE?AV0@UtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CSize __thiscall CPoint::operator-(struct tagPOINT)const " (??GCPoint@@QBE?AVCSize@@UtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(void)" (??0CRect@@QAE@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(int,int,int,int)" (??0CRect@@QAE@HHHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(struct tagRECT const &)" (??0CRect@@QAE@ABUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(struct tagRECT const *)" (??0CRect@@QAE@PBUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(struct tagPOINT,struct tagSIZE)" (??0CRect@@QAE@UtagPOINT@@UtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::CRect(struct tagPOINT,struct tagPOINT)" (??0CRect@@QAE@UtagPOINT@@0@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::Width(void)const " (?Width@CRect@@QBEHXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::Height(void)const " (?Height@CRect@@QBEHXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CSize __thiscall CRect::Size(void)const " (?Size@CRect@@QBE?AVCSize@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint & __thiscall CRect::TopLeft(void)" (?TopLeft@CRect@@QAEAAVCPoint@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint & __thiscall CRect::BottomRight(void)" (?BottomRight@CRect@@QAEAAVCPoint@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint const & __thiscall CRect::TopLeft(void)const " (?TopLeft@CRect@@QBEABVCPoint@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint const & __thiscall CRect::BottomRight(void)const " (?BottomRight@CRect@@QBEABVCPoint@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: class CPoint __thiscall CRect::CenterPoint(void)const " (?CenterPoint@CRect@@QBE?AVCPoint@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::operator struct tagRECT *(void)" (??BCRect@@QAEPAUtagRECT@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: __thiscall CRect::operator struct tagRECT const *(void)const " (??BCRect@@QBEPBUtagRECT@@XZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::IsRectEmpty(void)const " (?IsRectEmpty@CRect@@QBEHXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::IsRectNull(void)const " (?IsRectNull@CRect@@QBEHXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::PtInRect(struct tagPOINT)const " (?PtInRect@CRect@@QBEHUtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::SetRect(int,int,int,int)" (?SetRect@CRect@@QAEXHHHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::SetRect(struct tagPOINT,struct tagPOINT)" (?SetRect@CRect@@QAEXUtagPOINT@@0@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::SetRectEmpty(void)" (?SetRectEmpty@CRect@@QAEXXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::CopyRect(struct tagRECT const *)" (?CopyRect@CRect@@QAEXPBUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::EqualRect(struct tagRECT const *)const " (?EqualRect@CRect@@QBEHPBUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::InflateRect(int,int)" (?InflateRect@CRect@@QAEXHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::InflateRect(struct tagSIZE)" (?InflateRect@CRect@@QAEXUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::DeflateRect(int,int)" (?DeflateRect@CRect@@QAEXHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::DeflateRect(struct tagSIZE)" (?DeflateRect@CRect@@QAEXUtagSIZE@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::OffsetRect(int,int)" (?OffsetRect@CRect@@QAEXHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::OffsetRect(struct tagPOINT)" (?OffsetRect@CRect@@QAEXUtagPOINT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::IntersectRect(struct tagRECT const *,struct tagRECT const *)" (?IntersectRect@CRect@@QAEHPBUtagRECT@@0@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::UnionRect(struct tagRECT const *,struct tagRECT const *)" (?UnionRect@CRect@@QAEHPBUtagRECT@@0@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::operator=(struct tagRECT const &)" (??4CRect@@QAEXABUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::operator==(struct tagRECT const &)const " (??8CRect@@QBEHABUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::operator!=(struct tagRECT const &)const " (??9CRect@@QBEHABUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::operator|=(struct tagRECT const &)" (??_5CRect@@QAEXABUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: int __thiscall CRect::SubtractRect(struct tagRECT const *,struct tagRECT const *)" (?SubtractRect@CRect@@QAEHPBUtagRECT@@0@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::NormalizeRect(void)" (?NormalizeRect@CRect@@QAEXXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::InflateRect(int,int,int,int)" (?InflateRect@CRect@@QAEXHHHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::DeflateRect(struct tagRECT const *)" (?DeflateRect@CRect@@QAEXPBUtagRECT@@@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::DeflateRect(int,int,int,int)" (?DeflateRect@CRect@@QAEXHHHH@Z) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atltypes.obj) : error LNK2005: ya se definió "public: void __thiscall CRect::SwapLeftRight(void)" (?SwapLeftRight@CRect@@QAEXXZ) en mfc42d.lib(MFC42D.DLL)
+     1>atlsd.lib(atlfuncs.obj) : error LNK2005: ya se definió "long __stdcall ATL::AtlInternalQueryInterface(void *,struct ATL::_ATL_INTMAP_ENTRY const *,struct _GUID const &,void * *)" (?AtlInternalQueryInterface@ATL@@YGJPAXPBU_ATL_INTMAP_ENTRY@1@ABU_GUID@@PAPAX@Z) en nafxcwd.lib(wincore.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió "void __stdcall ATL::NotifyTool(void)" (?NotifyTool@ATL@@YGXXZ) en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceCloseProcess@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetCategory@16 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetCategoryInfo@16 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetModule@16 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetModuleInfo@12 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetProcess@20 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetProcessInfo@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetUpdateEventNameA@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetUpdateEventNameA_s@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetUpdateEventNameU@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceGetUpdateEventNameU_s@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceModifyCategory@16 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceModifyModule@16 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceModifyProcess@20 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceOpenProcess@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceRegister@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceRegisterCategoryA@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceRegisterCategoryU@8 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceSnapshotProcess@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceUnregister@4 en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceVA en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(AtlDebugAPI.obj) : error LNK2005: ya se definió _AtlTraceVU en atlsd.lib(atldebugapi.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: int __thiscall CAtlAllocator::AddModule(struct HINSTANCE__ *)" (?AddModule@CAtlAllocator@@QAEHPAUHINSTANCE__@@@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlAllocator::CleanUp(void)" (?CleanUp@CAtlAllocator@@QAEXXZ) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlAllocator::Close(bool)" (?Close@CAtlAllocator@@QAEX_N@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: class CAtlTraceCategory * __thiscall CAtlAllocator::GetCategory(int)const " (?GetCategory@CAtlAllocator@@QBEPAVCAtlTraceCategory@@H@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: int __thiscall CAtlAllocator::GetCategoryCount(class CAtlTraceModule const &)const " (?GetCategoryCount@CAtlAllocator@@QBEHABVCAtlTraceModule@@@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: int __thiscall CAtlAllocator::GetCategoryCount(int)const " (?GetCategoryCount@CAtlAllocator@@QBEHH@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: class CAtlTraceModule * __thiscall CAtlAllocator::GetModule(int)const " (?GetModule@CAtlAllocator@@QBEPAVCAtlTraceModule@@H@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: int __thiscall CAtlAllocator::GetModuleCount(void)const " (?GetModuleCount@CAtlAllocator@@QBEHXZ) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlAllocator::ReleaseSnapshot(void)" (?ReleaseSnapshot@CAtlAllocator@@QAEXXZ) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: bool __thiscall CAtlAllocator::RemoveModule(int)" (?RemoveModule@CAtlAllocator@@QAE_NH@Z) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(Allocate.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlAllocator::TakeSnapshot(void)" (?TakeSnapshot@CAtlAllocator@@QAEXXZ) en atlsd.lib(allocate.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: __thiscall CAtlTraceCategory::CAtlTraceCategory(void)" (??0CAtlTraceCategory@@QAE@XZ) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: __thiscall CAtlTraceModule::CAtlTraceModule(void)" (??0CAtlTraceModule@@QAE@XZ) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: __thiscall CAtlTraceModuleInfo::CAtlTraceModuleInfo(void)" (??0CAtlTraceModuleInfo@@QAE@XZ) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: __thiscall CAtlTraceProcess::CAtlTraceProcess(unsigned long)" (??0CAtlTraceProcess@@QAE@K@Z) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlTraceModule::CrtDbgReport(int (__cdecl*)(int,char const *,int,char const *,char const *,...))" (?CrtDbgReport@CAtlTraceModule@@QAEXP6AHHPBDH00ZZ@Z) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: long __thiscall CAtlTraceProcess::GetNextCookie(void)" (?GetNextCookie@CAtlTraceProcess@@QAEJXZ) en atlsd.lib(atltracemodulemanager.obj)
+     1>atlsnd.lib(AtlTraceModuleManager.obj) : error LNK2005: ya se definió "public: void __thiscall CAtlTraceModuleInfo::Reset(struct HINSTANCE__ *)" (?Reset@CAtlTraceModuleInfo@@QAEXPAUHINSTANCE__@@@Z) en atlsd.lib(atltracemodulemanager.obj)
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\CAN_ETAS_BOA_1_5.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\CAN_ETAS_BOA_1_5.exp
+     1>CAN_ETAS_BOA.obj : error LNK2001: símbolo externo "protected: static struct AFX_MSGMAP const CWinApp::messageMap" (?messageMap@CWinApp@@1UAFX_MSGMAP@@B) sin resolver
+     1>ChangeRegisters_CAN_ETAS_BOA.obj : error LNK2001: símbolo externo "protected: static struct AFX_MSGMAP const CDialog::messageMap" (?messageMap@CDialog@@1UAFX_MSGMAP@@B) sin resolver
+     1>HardwareListing.obj : error LNK2001: símbolo externo "protected: static struct AFX_MSGMAP const CDialog::messageMap" (?messageMap@CDialog@@1UAFX_MSGMAP@@B) sin resolver
+     1>nafxcwd.lib(appcore.obj) : error LNK2001: símbolo externo ___argc sin resolver
+     1>nafxcwd.lib(appcore.obj) : error LNK2001: símbolo externo ___argv sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__OpenThemeData@8 sin resolver al que se hace referencia en la función "public: int __thiscall CControlBar::OnCreate(struct tagCREATESTRUCTA *)" (?OnCreate@CControlBar@@QAEHPAUtagCREATESTRUCTA@@@Z)
+     1>nafxcwd.lib(winctrl3.obj) : error LNK2001: símbolo externo __imp__OpenThemeData@8 sin resolver
+     1>nafxcwd.lib(afxvisualmanager.obj) : error LNK2001: símbolo externo __imp__OpenThemeData@8 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__CloseThemeData@4 sin resolver al que se hace referencia en la función "public: void __thiscall CControlBar::OnDestroy(void)" (?OnDestroy@CControlBar@@QAEXXZ)
+     1>nafxcwd.lib(winctrl3.obj) : error LNK2001: símbolo externo __imp__CloseThemeData@4 sin resolver
+     1>nafxcwd.lib(afxvisualmanager.obj) : error LNK2001: símbolo externo __imp__CloseThemeData@4 sin resolver
+     1>nafxcwd.lib(afxvisualmanageroffice2003.obj) : error LNK2001: símbolo externo __imp__DrawThemeBackground@24 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__DrawThemeBackground@24 sin resolver al que se hace referencia en la función "public: virtual void __thiscall CControlBar::DrawBorders(class CDC *,class CRect &)" (?DrawBorders@CControlBar@@UAEXPAVCDC@@AAVCRect@@@Z)
+     1>nafxcwd.lib(winctrl3.obj) : error LNK2001: símbolo externo __imp__DrawThemeBackground@24 sin resolver
+     1>nafxcwd.lib(bardock.obj) : error LNK2001: símbolo externo __imp__DrawThemeBackground@24 sin resolver
+     1>nafxcwd.lib(afxvisualmanager.obj) : error LNK2001: símbolo externo __imp__DrawThemeBackground@24 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__GetThemePartSize@28 sin resolver al que se hace referencia en la función "public: virtual int __thiscall CControlBar::DrawThemedGripper(class CDC *,class CRect const &,int)" (?DrawThemedGripper@CControlBar@@UAEHPAVCDC@@ABVCRect@@H@Z)
+     1>nafxcwd.lib(winctrl3.obj) : error LNK2001: símbolo externo __imp__GetThemePartSize@28 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__IsThemeBackgroundPartiallyTransparent@12 sin resolver al que se hace referencia en la función "public: virtual void __thiscall CControlBar::DrawBorders(class CDC *,class CRect &)" (?DrawBorders@CControlBar@@UAEXPAVCDC@@AAVCRect@@@Z)
+     1>nafxcwd.lib(bardock.obj) : error LNK2001: símbolo externo __imp__IsThemeBackgroundPartiallyTransparent@12 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__IsAppThemed@0 sin resolver al que se hace referencia en la función "public: int __thiscall CControlBar::OnCreate(struct tagCREATESTRUCTA *)" (?OnCreate@CControlBar@@QAEHPAUtagCREATESTRUCTA@@@Z)
+     1>nafxcwd.lib(winctrl3.obj) : error LNK2001: símbolo externo __imp__IsAppThemed@0 sin resolver
+     1>nafxcwd.lib(afxdialogex.obj) : error LNK2001: símbolo externo __imp__IsAppThemed@0 sin resolver
+     1>nafxcwd.lib(barcore.obj) : error LNK2019: símbolo externo __imp__DrawThemeParentBackground@12 sin resolver al que se hace referencia en la función "public: virtual void __thiscall CControlBar::DrawBorders(class CDC *,class CRect &)" (?DrawBorders@CControlBar@@UAEXPAVCDC@@AAVCRect@@@Z)
+     1>nafxcwd.lib(bardock.obj) : error LNK2001: símbolo externo __imp__DrawThemeParentBackground@12 sin resolver
+     1>nafxcwd.lib(afxglobals.obj) : error LNK2001: símbolo externo __imp__DrawThemeParentBackground@12 sin resolver
+     1>nafxcwd.lib(afxrendertarget.obj) : error LNK2001: símbolo externo _IID_IWICImagingFactory sin resolver
+     1>nafxcwd.lib(afxwinverapi.obj) : error LNK2019: símbolo externo __imp__DrawThemeText@36 sin resolver al que se hace referencia en la función "long __cdecl _AfxDrawThemeTextEx(void *,struct HDC__ *,int,int,wchar_t const *,int,unsigned long,struct tagRECT *,struct _DTTOPTS const *)" (?_AfxDrawThemeTextEx@@YAJPAXPAUHDC__@@HHPB_WHKPAUtagRECT@@PBU_DTTOPTS@@@Z)
+     1>nafxcwd.lib(afxvisualmanager.obj) : error LNK2019: símbolo externo __imp__GetThemeColor@20 sin resolver al que se hace referencia en la función "public: virtual enum CMFCBaseVisualManager::WinXpTheme __thiscall CMFCBaseVisualManager::GetStandardWindowsTheme(void)" (?GetStandardWindowsTheme@CMFCBaseVisualManager@@UAE?AW4WinXpTheme@1@XZ)
+     1>nafxcwd.lib(afxvisualmanageroffice2003.obj) : error LNK2001: símbolo externo __imp__GetThemeColor@20 sin resolver
+     1>nafxcwd.lib(afxvisualmanager.obj) : error LNK2019: símbolo externo __imp__GetCurrentThemeName@24 sin resolver al que se hace referencia en la función "public: virtual enum CMFCBaseVisualManager::WinXpTheme __thiscall CMFCBaseVisualManager::GetStandardWindowsTheme(void)" (?GetStandardWindowsTheme@CMFCBaseVisualManager@@UAE?AW4WinXpTheme@1@XZ)
+     1>nafxcwd.lib(afxvisualmanageroffice2003.obj) : error LNK2019: símbolo externo __imp__GetThemeSysColor@8 sin resolver al que se hace referencia en la función "protected: unsigned long __thiscall CMFCVisualManagerOffice2003::GetThemeColor(void *,int)const " (?GetThemeColor@CMFCVisualManagerOffice2003@@IBEKPAXH@Z)
+     1>nafxcwd.lib(afxvisualmanageroffice2003.obj) : error LNK2019: símbolo externo __imp__GetWindowTheme@4 sin resolver al que se hace referencia en la función "public: virtual void __thiscall CMFCVisualManagerOffice2003::OnUpdateSystemColors(void)" (?OnUpdateSystemColors@CMFCVisualManagerOffice2003@@UAEXXZ)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/Debug\CAN_ETAS_BOA_1_5.dll : fatal error LNK1120: 17 externos sin resolver
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\CAN_ETAS_BOA\CAN_ETAS_BOA_1_5.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.22

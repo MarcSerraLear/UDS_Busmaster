@@ -1,0 +1,140 @@
+﻿Build started 11/04/2014 9:36:28 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\FLEXRAY_ETAS_BOA\FLEXRAY_ETAS_BOA_1_4.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"busmaster_debug\\" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" /D "BOA_VERSION=BOA_VERSION_1_4" ..\DIL_Interface\ClientBuffer.cpp ..\DIL_Interface\ClientList.cpp ..\DIL_Interface\CommanDIL_Flexray.cpp FLEXRAY_ETAS_BOA.cpp FLEXRAY_ETAS_BOA_stdafx.cpp HardwareListing.cpp
+         ClientBuffer.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>..\DIL_Interface\ClientBuffer.cpp(169): warning C4018: '<' : no coinciden signed/unsigned
+         ClientList.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+         CommanDIL_Flexray.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>..\DIL_Interface\CommanDIL_Flexray.cpp(149): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         FLEXRAY_ETAS_BOA.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\flexray_etas_boa\FLEXRAY_ETAS_BOA_Defs.h(270): warning C4245: '=' : conversión de 'int' en 'UINT'; no coinciden signed/unsigned
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>FLEXRAY_ETAS_BOA.cpp(534): warning C4018: '<' : no coinciden signed/unsigned
+     1>FLEXRAY_ETAS_BOA.cpp(1273): warning C4244: '=' : conversión de 'uint16' a 'unsigned char'; posible pérdida de datos
+     1>FLEXRAY_ETAS_BOA.cpp(1912): warning C4018: '<' : no coinciden signed/unsigned
+     1>FLEXRAY_ETAS_BOA.cpp(1961): warning C4018: '<' : no coinciden signed/unsigned
+     1>FLEXRAY_ETAS_BOA.cpp(2025): warning C4018: '>=' : no coinciden signed/unsigned
+     1>FLEXRAY_ETAS_BOA.cpp(1932): warning C4100: 'sAvailableConfigFiles' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(1969): warning C4101: 'sOCI' : variable local sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2088): warning C4101: 'sOCI' : variable local sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2085): warning C4101: 'm_OCIHandle' : variable local sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2181): warning C4100: 'Length' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2181): warning C4100: 'InitData' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2332): warning C4553: '==' : el operador no tiene efecto; ¿ha pensado en '='?
+     1>FLEXRAY_ETAS_BOA.cpp(2406): warning C4100: 'dwClientID' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2429): warning C4100: 'dwClientID' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2529): warning C4100: 'BoardInfo' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2535): warning C4100: 'FlexRayInfo' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2541): warning C4100: 'sVerInfo' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2554): warning C4100: 'nLength' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2554): warning C4100: 'punFrames' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2554): warning C4100: 'FlexChannel' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2554): warning C4100: 'FilterType' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2560): warning C4100: 'punAddress' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(2560): warning C4100: 'sMsgBuf' : parámetro formal sin referencia
+     1>FLEXRAY_ETAS_BOA.cpp(1035): warning C4505: 'bClientExist' : la función local a la que no se hace referencia se ha quitado
+     1>FLEXRAY_ETAS_BOA.cpp(1072): warning C4505: 'dwGetAvailableClientSlot' : la función local a la que no se hace referencia se ha quitado
+     1>FLEXRAY_ETAS_BOA.cpp(1116): warning C4505: 'bRemoveClient' : la función local a la que no se hace referencia se ha quitado
+         FLEXRAY_ETAS_BOA_stdafx.cpp
+         HardwareListing.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\../Include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\FLEXRAY_ETAS_BOA\busmaster_debug\FLEXRAY_ETAS_BOA_1_4.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\busmaster_debug\FlexRay_ETAS_BOA_1_4.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/busmaster_debug\FlexRay_ETAS_BOA_1_4.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Advapi32.lib /NODEFAULTLIB:daouuid.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"busmaster_debug\FLEXRAY_ETAS_BOA_1_4.pdb" /SUBSYSTEM:WINDOWS /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\FlexRay_ETAS_BOA_1_4.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib" /DLL busmaster_debug\FLEXRAY_ETAS_BOA.res
+         busmaster_debug\ClientBuffer.obj
+         busmaster_debug\ClientList.obj
+         busmaster_debug\CommanDIL_Flexray.obj
+         busmaster_debug\FLEXRAY_ETAS_BOA.obj
+         busmaster_debug\FLEXRAY_ETAS_BOA_stdafx.obj
+         busmaster_debug\HardwareListing.obj
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\FlexRay_ETAS_BOA_1_4.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\FlexRay_ETAS_BOA_1_4.exp
+     1>DataTypes.lib(Defines_FlexRay.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(MsgInterpretation.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(UtilFunctions.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         FLEXRAY_ETAS_BOA_1_4.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\FLEXRAY_ETAS_BOA\busmaster_debug\FLEXRAY_ETAS_BOA_1_4.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\FLEXRAY_ETAS_BOA\FLEXRAY_ETAS_BOA_1_4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.58

@@ -1,0 +1,33 @@
+﻿Build started 09/04/2014 9:49:08 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SignalDefiner\SignalDefiner.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" SignalDefiner.cpp SignalDefinerDlg.cpp
+     1>cl : Línea de comandos warning D9007: '/Gm' requiere '/Zi o /ZI'; opción omitida
+         SignalDefiner.cpp
+         SignalDefinerDlg.cpp
+     1>SignalDefinerDlg.cpp(12): warning C4305: 'inicializando' : truncamiento de 'double' a 'const float'
+     1>SignalDefinerDlg.cpp(292): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>SignalDefinerDlg.cpp(313): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SignalDefiner\Debug\SignalDefiner.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\Debug\SignalDefiner.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/Debug\SignalDefiner.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug\SignalDefiner.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\SignalDefiner.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/lib/intl.lib" /DLL Debug\SignalDefiner.res
+         Debug\MultiLanguage.obj
+         Debug\SignalDefiner.obj
+         Debug\SignalDefinerDlg.obj
+     1>atlsd.lib(stdafx.obj) : warning LNK4078: se encontraron varias secciones 'ATL' con atributos diferentes (40301040)
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\SignalDefiner.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\SignalDefiner.exp
+     1>MultiLanguage.obj : error LNK2019: símbolo externo "void __cdecl AfxTrace(wchar_t const *,...)" (?AfxTrace@@YAXPB_WZZ) sin resolver al que se hace referencia en la función "public: static unsigned short __cdecl CMultiLanguage::DetectLangID(void)" (?DetectLangID@CMultiLanguage@@SAGXZ)
+     1>SignalDefiner.obj : error LNK2019: símbolo externo "public: __thiscall CWinApp::CWinApp(wchar_t const *)" (??0CWinApp@@QAE@PB_W@Z) sin resolver al que se hace referencia en la función "public: __thiscall CSignalDefinerApp::CSignalDefinerApp(void)" (??0CSignalDefinerApp@@QAE@XZ)
+     1>SignalDefiner.obj : error LNK2001: símbolo externo "public: virtual class CDocument * __thiscall CWinApp::OpenDocumentFile(wchar_t const *)" (?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PB_W@Z) sin resolver
+     1>SignalDefiner.obj : error LNK2001: símbolo externo "public: virtual void __thiscall CWinApp::AddToRecentFileList(wchar_t const *)" (?AddToRecentFileList@CWinApp@@UAEXPB_W@Z) sin resolver
+     1>SignalDefiner.obj : error LNK2001: símbolo externo "public: virtual int __thiscall CWinApp::DoMessageBox(wchar_t const *,unsigned int,unsigned int)" (?DoMessageBox@CWinApp@@UAEHPB_WII@Z) sin resolver
+     1>SignalDefiner.obj : error LNK2001: símbolo externo "public: virtual int __thiscall CWinApp::OnDDECommand(wchar_t *)" (?OnDDECommand@CWinApp@@UAEHPA_W@Z) sin resolver
+     1>SignalDefinerDlg.obj : error LNK2001: símbolo externo "public: virtual int __thiscall CWnd::Create(wchar_t const *,wchar_t const *,unsigned long,struct tagRECT const &,class CWnd *,unsigned int,struct CCreateContext *)" (?Create@CWnd@@UAEHPB_W0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z) sin resolver
+     1>SignalDefinerDlg.obj : error LNK2019: símbolo externo "public: void __thiscall CWnd::SetDlgItemTextW(int,wchar_t const *)" (?SetDlgItemTextW@CWnd@@QAEXHPB_W@Z) sin resolver al que se hace referencia en la función "private: void __thiscall CSignalDefinerDlg::vGenerateWave(void)" (?vGenerateWave@CSignalDefinerDlg@@AAEXXZ)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/Debug\SignalDefiner.dll : fatal error LNK1120: 8 externos sin resolver
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\SignalDefiner\SignalDefiner.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.15

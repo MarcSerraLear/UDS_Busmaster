@@ -1,0 +1,1958 @@
+﻿Build started 09/04/2014 9:49:40 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Application\BUSMASTER.vcxproj" on node 4 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "BUSMASTER_Interface.h" /dlldata "dlldata.c" /iid "BUSMASTER_Interface.c" /tlb ".\Debug/BUSMASTER.tlb" BUSMASTER.idl 
+         Processing .\BUSMASTER.idl
+         BUSMASTER.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0009 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0010 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0011 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagTxBlock_Usr (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0012 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0013 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagLoggingBlockUsr (0x800288C6)
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/CAN_Monitor.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Application.cpp BUSMASTER.cpp ConfigDetails.cpp ElementSelection.cpp GraphConfiguration.cpp MainFrm.cpp MessageDetailsDlg.cpp MsgSgDetView.cpp MsgSgTreeView.cpp MsgSignalDBWnd.cpp PPageMessage.cpp SignalDetailsDlg.cpp Utility.cpp ValueDescriptionDlg.cpp
+         Application.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(355) : vea la declaración de '_wcsupr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(349) : vea la declaración de '_wcslwr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : vea la declaración de 'vswprintf'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\Application.h(1041): warning C4189: 'bRet' : la variable local se ha inicializado pero no se hace referencia a ella
+         BUSMASTER.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\common.h(60): warning C4005: 'WM_NOTIFICATION_FROM_OTHER' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\HashDefines.h(595) : vea la definición anterior de 'WM_NOTIFICATION_FROM_OTHER'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>BUSMASTER.cpp(251): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(248) : vea la declaración de 'strcmpi'
+     1>BUSMASTER.cpp(252): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(248) : vea la declaración de 'strcmpi'
+     1>BUSMASTER.cpp(440): warning C4101: 'dwRet' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         ConfigDetails.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         ElementSelection.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         GraphConfiguration.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         MainFrm.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\uds_protocol\UDS_Resource.h(11): warning C4005: 'IDC_COMBO_CHANNEL' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\resource.h(353) : vea la definición anterior de 'IDC_COMBO_CHANNEL'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\uds_protocol\UDS_Resource.h(15): warning C4005: 'IDC_EDIT_DATA' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\resource.h(367) : vea la definición anterior de 'IDC_EDIT_DATA'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\uds_protocol\UDSMainWnd.h(14): fatal error C1083: No se puede abrir el archivo incluir: 'DataTypes/UDS_DataTypes.h': No such file or directory
+         MessageDetailsDlg.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>MessageDetailsDlg.cpp(486): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>MessageDetailsDlg.cpp(484): warning C4101: 'nChar1' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         MsgSgDetView.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>MsgSgDetView.cpp(398): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(412): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(565): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(581): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(697): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(711): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(1313): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(1327): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(1595): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(1609): warning C4018: '>=' : no coinciden signed/unsigned
+     1>MsgSgDetView.cpp(1439): warning C4189: 'bActive' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         MsgSgTreeView.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         MsgSignalDBWnd.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>MsgSignalDBWnd.cpp(317): warning C4100: 'wParam' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         PPageMessage.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\common.h(60): warning C4005: 'WM_NOTIFICATION_FROM_OTHER' : redefinición de macro
+                 c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\HashDefines.h(595) : vea la definición anterior de 'WM_NOTIFICATION_FROM_OTHER'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         SignalDetailsDlg.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>SignalDetailsDlg.cpp(1380): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>SignalDetailsDlg.cpp(1412): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>SignalDetailsDlg.cpp(1462): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>SignalDetailsDlg.cpp(1460): warning C4101: 'nChar1' : variable local sin referencia
+     1>SignalDetailsDlg.cpp(1739): warning C4018: '<' : no coinciden signed/unsigned
+     1>SignalDetailsDlg.cpp(1682): warning C4189: 'pMainFrame' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>SignalDetailsDlg.cpp(1848): warning C4018: '>' : no coinciden signed/unsigned
+     1>SignalDetailsDlg.cpp(1860): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         Utility.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         ValueDescriptionDlg.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Datatypes/MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\SectionNames.h(108): warning C4005: 'DEF_FILE_PATH' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(35) : vea la definición anterior de 'DEF_FILE_PATH'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>ValueDescriptionDlg.cpp(301): warning C4101: 'bSignalType' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=s_FLXMSG
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STLINDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(63): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(62): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(61): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::ReadFromBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(65): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(64): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::WriteIntoBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(67): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::GetMsgCount' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(68): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::nSetBufferMsgSize' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(69): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::vClearMessageBuffer' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\MsgBufFSE.h(70): warning C4505: 'CMsgBufFSE<SMSGBUFFER>::hGetNotifyingEvent' : la función local a la que no se hace referencia se ha quitado
+                 with
+                 [
+                     SMSGBUFFER=STCANDATA
+                 ]
+         Generando código...
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\application\application.h(829): warning C4701: posiblemente se utilizó la variable local 'hResult' sin inicializar
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Application\BUSMASTER.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:27.28

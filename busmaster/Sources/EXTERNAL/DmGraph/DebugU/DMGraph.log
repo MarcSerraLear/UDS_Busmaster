@@ -1,0 +1,91 @@
+﻿Build started 09/04/2014 9:48:14 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\EXTERNAL\DmGraph\DMGraph.vcxproj" on node 2 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /W1 /nologo /char signed /env win32 /Oicf /h "DMGraph.h" /iid "DMGraph_i.c" /tlb ".\DMGraph.tlb" DMGraph.idl 
+         Processing .\DMGraph.idl
+         DMGraph.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\DebugU/DMGraph.pch" /Fo".\DebugU/" /Fd".\DebugU/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" AnnoPropPage.cpp CursorPropPage.cpp DMGraph.cpp DMGraphCtrl.cpp DMGraphPropPage.cpp ElementPropPage.cpp FormatPropPage.cpp GraphAnno.cpp GraphAxis.cpp GraphCollection.cpp GraphCursor.cpp GraphElement.cpp PropPageBaseWnd.cpp
+         AnnoPropPage.cpp
+         Generando código...
+         Compilando...
+         PropPageBaseWnd.cpp
+         GraphElement.cpp
+         GraphCursor.cpp
+         GraphCollection.cpp
+         GraphAxis.cpp
+         GraphAnno.cpp
+         FormatPropPage.cpp
+         ElementPropPage.cpp
+         DMGraphPropPage.cpp
+         DMGraphCtrl.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3346): warning C4244: 'return' : conversión de 'double' a 'LONG'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3361): warning C4244: 'return' : conversión de 'double' a 'LONG'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3390): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3471): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3492): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3508): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3516): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(3523): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(4032): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(4039): warning C4101: 'ptCursor' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(4121): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\external\dmgraph\dmgraphctrl.cpp(4168): warning C4018: '<' : no coinciden signed/unsigned
+         DMGraph.cpp
+         CursorPropPage.cpp
+         Generando código...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo".\DebugU\DMGraph.res" DMGraph.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\EXTERNAL\DmGraph\.\DebugU\DMGraph.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\bin\DebugU\DMGraph.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/.\DebugU\DMGraph.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\DMGraph.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\DebugU/DMGraph.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/.\DebugU\DMGraph.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/lib/intl.lib" /DLL .\DebugU\DMGraph.res
+         .\DebugU/AnnoPropPage.obj
+         .\DebugU/ColPickerBtn.obj
+         .\DebugU/CursorPropPage.obj
+         .\DebugU/DMGraph.obj
+         .\DebugU/DMGraphCtrl.obj
+         .\DebugU/DMGraphCursorState.obj
+         .\DebugU/DMGraphPropPage.obj
+         .\DebugU/DrawFct.obj
+         .\DebugU/ElementPropPage.obj
+         .\DebugU/FormatPropPage.obj
+         .\DebugU/GraphAnno.obj
+         .\DebugU/GraphAxis.obj
+         .\DebugU/GraphCollection.obj
+         .\DebugU/GraphCursor.obj
+         .\DebugU/GraphElement.obj
+         .\DebugU/PropPageBaseWnd.obj
+         .\DebugU/RectTracker.obj
+         .\DebugU/StdAfx.obj
+         DMGraph.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\EXTERNAL\DmGraph\.\DebugU\DMGraph.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\EXTERNAL\DmGraph\DMGraph.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.71

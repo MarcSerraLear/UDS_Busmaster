@@ -1,0 +1,72 @@
+﻿Build started 17/09/2013 10:43:58 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\UDS_Protocol.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I"C:\libxml2-2.7.8.win32\include" /I"C:\iconv-1.9.2.win32\include" /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp UDS_NegRespMng.cpp UDS_Protocol.cpp UDS_TimmingWnd.cpp UDSMainWnd.cpp UDSSettingsWnd.cpp
+         stdafx.cpp
+         UDS_NegRespMng.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(332): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(455): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(491): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+         UDS_Protocol.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(332): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(455): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(491): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>UDS_Protocol.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : vea la declaración de 'sprintf'
+     1>UDS_Protocol.cpp(254): warning C4804: '<=' : uso no seguro del tipo 'bool' en la operación
+     1>UDS_Protocol.cpp(255): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>UDS_Protocol.cpp(320): warning C4244: 'argumento' : conversión de 'float' a '__int64'; posible pérdida de datos
+     1>UDS_Protocol.cpp(342): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>UDS_Protocol.cpp(425): warning C4244: '=' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+     1>UDS_Protocol.cpp(426): warning C4244: '=' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+         UDS_TimmingWnd.cpp
+         UDSMainWnd.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(332): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(455): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(491): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\uds_lear\uds_protocol_code_set\sources\datatypes\../Include/BaseDefs.h(201): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>UDSMainWnd.cpp(189): warning C4018: '<' : no coinciden signed/unsigned
+     1>UDSMainWnd.cpp(223): warning C4018: '<' : no coinciden signed/unsigned
+     1>UDSMainWnd.cpp(667): warning C4244: '=' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+     1>UDSMainWnd.cpp(685): warning C4244: '=' : conversión de '__int64' a 'UINT'; posible pérdida de datos
+         UDSSettingsWnd.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(332): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(455): warning C4101: 'nStrSize' : variable local sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\include/struct_can.h(491): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(196): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(248): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(260): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(267): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(282): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(297): warning C4244: '=' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(552): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(553): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(581): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(582): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(603): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(604): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(634): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(635): warning C4244: '=' : conversión de '__int64' a 'long'; posible pérdida de datos
+     1>UDSSettingsWnd.cpp(664): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>UDSSettingsWnd.cpp(665): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>UDSSettingsWnd.cpp(850): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\Release\UDS_Protocol.dll) does not match the Linker's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\BIN\Release\UDS_Protocol.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Release\UDS_Protocol.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release\UDS_Protocol.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\UDS_Protocol.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\/DIL_Interface.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\/Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\/DataTypes.lib" /DLL Release\uds.res
+         Release\stdafx.obj
+         Release\UDS_NegRespMng.obj
+         Release\UDS_Protocol.obj
+         Release\UDS_TimmingWnd.obj
+         Release\UDSMainWnd.obj
+         Release\UDSSettingsWnd.obj
+            Creando biblioteca C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\UDS_Protocol.lib y objeto C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\/BIN/Libs/Release\UDS_Protocol.exp
+     1>Utils.lib(RadixEdit.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         UDS_Protocol.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\Release\UDS_Protocol.dll
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\UDS_Lear\UDS_Protocol_Code_Set\Sources\UDS_Protocol\UDS_Protocol.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.57

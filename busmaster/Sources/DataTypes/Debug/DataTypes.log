@@ -1,0 +1,249 @@
+﻿Build started 09/04/2014 9:26:58 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\DataTypes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _LIB /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"DataTypes_StdAfx.h" /Fp"Debug\DataTypes.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/include" Cluster.cpp Defines_FlexRay.cpp FEALData.cpp Filter_Datatypes.cpp FLEXRAY_Datatypes.cpp J1939_DataTypes.cpp Log_Datatypes.cpp MainSubEntry.cpp MsgBufVSE.cpp MsgBufVVSE.cpp MsgSignal_Datatypes.cpp ProjConfig_DataTypes.cpp Struct_BUS.cpp
+     1>cl : Línea de comandos warning D9007: '/Gm' requiere '/Zi o /ZI'; opción omitida
+         Cluster.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(293): warning C4100: 'pNodePtr' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(340): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(463): warning C4101: 'nStrSize' : variable local sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_CAN.h(499): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\include\Struct_LIN.h(124): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'SEVENT_SYNC_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(244): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_CAN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(291): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'tagFormattedData_LIN' cuando no hay ninguna variable declarada
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(281): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(245): warning C4005: 'DEF_MSG_ID' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include\XMLDefines.h(144) : vea la definición anterior de 'DEF_MSG_ID'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(659): warning C4800: 'BOOL' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(668): warning C4100: 'Info' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Utility/XMLUtils.h(730): warning C4189: 'nNodes' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>Cluster.cpp(141): warning C4100: 'ouPduList' : parámetro formal sin referencia
+     1>Cluster.cpp(141): warning C4100: 'ouSlotBaseKey' : parámetro formal sin referencia
+     1>Cluster.cpp(145): warning C4100: 'ouSignalList' : parámetro formal sin referencia
+     1>Cluster.cpp(145): warning C4100: 'ouSlotBaseKey' : parámetro formal sin referencia
+     1>Cluster.cpp(149): warning C4100: 'ouChannelType' : parámetro formal sin referencia
+     1>Cluster.cpp(160): warning C4189: 'm_nKeySlot' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Cluster.cpp(181): warning C4389: '==' : no coinciden signed/unsigned
+     1>Cluster.cpp(201): warning C4389: '==' : no coinciden signed/unsigned
+     1>Cluster.cpp(227): warning C4389: '==' : no coinciden signed/unsigned
+     1>Cluster.cpp(244): warning C4389: '==' : no coinciden signed/unsigned
+     1>Cluster.cpp(366): warning C4100: 'ouPduList' : parámetro formal sin referencia
+     1>Cluster.cpp(366): warning C4100: 'ouSlotBaseKey' : parámetro formal sin referencia
+     1>Cluster.cpp(370): warning C4100: 'ouSignalList' : parámetro formal sin referencia
+     1>Cluster.cpp(370): warning C4100: 'ouSlotBaseKey' : parámetro formal sin referencia
+     1>Cluster.cpp(390): warning C4100: 'ouSignalList' : parámetro formal sin referencia
+     1>Cluster.cpp(394): warning C4100: 'ouSignalList' : parámetro formal sin referencia
+     1>Cluster.cpp(447): warning C4100: 'ouSignalList' : parámetro formal sin referencia
+     1>Cluster.cpp(904): warning C4018: '<' : no coinciden signed/unsigned
+     1>Cluster.cpp(972): warning C4389: '!=' : no coinciden signed/unsigned
+     1>Cluster.cpp(992): warning C4389: '==' : no coinciden signed/unsigned
+     1>Cluster.cpp(894): warning C4189: 'unUnused' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Cluster.cpp(893): warning C4189: 'unStartBit' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Cluster.cpp(895): warning C4189: 'unCount' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Cluster.cpp(1047): warning C4189: 'unStartBit' : la variable local se ha inicializado pero no se hace referencia a ella
+         Defines_FlexRay.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(36): warning C4099: 'SIGNAL_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(539) : vea la declaración de 'SIGNAL_STRUCT'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(87): warning C4189: 'i' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Cluster.h(93): warning C4099: 'FRAME_STRUCT' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\MsgSignal_Datatypes.h(540) : vea la declaración de 'FRAME_STRUCT'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(288) : vea la declaración de 'wcscpy'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(355) : vea la declaración de '_wcsupr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(349) : vea la declaración de '_wcslwr'
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : vea la declaración de 'vswprintf'
+     1>Defines_FlexRay.cpp(216): warning C4244: 'inicializando' : conversión de 'double' a 'UINT'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(234): warning C4244: 'inicializando' : conversión de 'double' a 'UINT'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(452): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(485): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(490): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(495): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>Defines_FlexRay.cpp(362): warning C4100: 'dwRawValue' : parámetro formal sin referencia
+     1>Defines_FlexRay.cpp(512): warning C4245: '=' : conversión de 'int' en 'UINT'; no coinciden signed/unsigned
+     1>Defines_FlexRay.cpp(572): warning C4239: se ha utilizado una extensión no estándar : 'inicializando' : conversión de 'CCompuMethodEx' a 'CCompuMethodEx &'
+                 Una referencia que no es const solamente se puede enlazar a un valor L
+     1>Defines_FlexRay.cpp(848): warning C4245: '=' : conversión de 'int' en 'DWORD'; no coinciden signed/unsigned
+     1>Defines_FlexRay.cpp(849): warning C4245: '=' : conversión de 'int' en 'DWORD'; no coinciden signed/unsigned
+     1>Defines_FlexRay.cpp(856): warning C4100: 'RefObj' : parámetro formal sin referencia
+     1>Defines_FlexRay.cpp(1010): warning C4189: 'bResult' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Defines_FlexRay.cpp(1055): warning C4927: conversión no válida; se aplicó implícitamente más de una conversión definida por el usuario
+                 al llamar al constructor 'std::basic_string<_Elem,_Traits,_Alloc>::basic_string(const _Elem *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xstring(789) : vea la declaración de 'std::basic_string<_Elem,_Traits,_Alloc>::basic_string'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>Defines_FlexRay.cpp(1154): warning C4189: 'bReturn' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Defines_FlexRay.cpp(1158): warning C4189: 'nCnt' : la variable local se ha inicializado pero no se hace referencia a ella
+         FEALData.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+     1>FEALData.cpp(102): warning C4245: '=' : conversión de 'int' en 'unsigned long'; no coinciden signed/unsigned
+     1>FEALData.cpp(274): warning C4245: '=' : conversión de 'int' en 'unsigned long'; no coinciden signed/unsigned
+     1>FEALData.cpp(373): warning C4245: '=' : conversión de 'int' en 'unsigned int'; no coinciden signed/unsigned
+     1>FEALData.cpp(390): warning C4245: '=' : conversión de 'int' en 'unsigned int'; no coinciden signed/unsigned
+     1>FEALData.cpp(413): warning C4245: '=' : conversión de 'int' en 'unsigned int'; no coinciden signed/unsigned
+     1>FEALData.cpp(528): warning C4245: '=' : conversión de 'int' en 'UINT'; no coinciden signed/unsigned
+     1>FEALData.cpp(544): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(569): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(593): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(617): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(641): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(665): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(689): warning C4100: 'Category' : parámetro formal sin referencia
+     1>FEALData.cpp(713): warning C4100: 'Category' : parámetro formal sin referencia
+         Filter_Datatypes.cpp
+     1>Filter_Datatypes.cpp(67): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : vea la declaración de '_tcsset'
+     1>Filter_Datatypes.cpp(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>Filter_Datatypes.cpp(233): warning C4244: 'inicializando' : conversión de 'time_t' a 'UINT'; posible pérdida de datos
+     1>Filter_Datatypes.cpp(233): warning C4189: 'unRand' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>Filter_Datatypes.cpp(784): warning C4100: 'xmlNodePtr' : parámetro formal sin referencia
+     1>Filter_Datatypes.cpp(1145): warning C4100: 'xmlNodePtr' : parámetro formal sin referencia
+     1>Filter_Datatypes.cpp(1235): warning C4244: '=' : conversión de 'INT' a 'BYTE'; posible pérdida de datos
+     1>Filter_Datatypes.cpp(1243): warning C4244: '=' : conversión de 'INT' a 'BYTE'; posible pérdida de datos
+         FLEXRAY_Datatypes.cpp
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(799): warning C4100: 'ouEcuList' : parámetro formal sin referencia
+     1>c:\marc_serra\tortoisegit_busmaster\busmaster_2.3_uds\busmaster\sources\datatypes\FEALData.h(803): warning C4100: 'ouFrameList' : parámetro formal sin referencia
+         J1939_DataTypes.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\application/Common.h(60): warning C4005: 'WM_NOTIFICATION_FROM_OTHER' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\application/hashdefines.h(595) : vea la definición anterior de 'WM_NOTIFICATION_FROM_OTHER'
+     1>J1939_DataTypes.cpp(271): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(272): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(273): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(275): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(276): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(278): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(279): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(280): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(281): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(283): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(284): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(285): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(286): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(289): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(290): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(291): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : vea la declaración de '_tcsnset'
+     1>J1939_DataTypes.cpp(313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(328): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(331): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(335): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(338): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(341): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(344): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(347): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(353): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(356): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+     1>J1939_DataTypes.cpp(359): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : vea la declaración de 'strcpy'
+         Log_Datatypes.cpp
+     1>Log_Datatypes.cpp(380): warning C4245: '=' : conversión de 'int' en 'UINT'; no coinciden signed/unsigned
+     1>Log_Datatypes.cpp(381): warning C4245: '=' : conversión de 'int' en 'UINT'; no coinciden signed/unsigned
+         MainSubEntry.cpp
+     1>MainSubEntry.cpp(35): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : vea la declaración de '_tcsset'
+     1>MainSubEntry.cpp(36): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : vea la declaración de '_tcsset'
+     1>MainSubEntry.cpp(37): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : vea la declaración de '_tcsset'
+     1>MainSubEntry.cpp(38): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : vea la declaración de '_tcsset'
+         MsgBufVSE.cpp
+         MsgBufVVSE.cpp
+         MsgSignal_Datatypes.cpp
+     1>MsgSignal_Datatypes.cpp(241): warning C4244: 'inicializando' : conversión de 'double' a 'UINT64'; posible pérdida de datos
+         ProjConfig_DataTypes.cpp
+         Struct_BUS.cpp
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes/Base_FlexRay_Buffer.h(126): warning C4005: 'FLX_MAX_MSG_DATA_SIZE' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\include/BaseDefs.h(164) : vea la definición anterior de 'FLX_MAX_MSG_DATA_SIZE'
+     1>C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\application/Common.h(60): warning C4005: 'WM_NOTIFICATION_FROM_OTHER' : redefinición de macro
+                 C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\application/hashdefines.h(595) : vea la definición anterior de 'WM_NOTIFICATION_FROM_OTHER'
+     1>Struct_BUS.cpp(120): warning C4100: 'nField' : parámetro formal sin referencia
+     1>Struct_BUS.cpp(125): warning C4100: 'bAscending' : parámetro formal sin referencia
+     1>Struct_BUS.cpp(130): warning C4100: 'pEntry2' : parámetro formal sin referencia
+     1>Struct_BUS.cpp(130): warning C4100: 'pEntry1' : parámetro formal sin referencia
+     1>Struct_BUS.cpp(137): warning C4100: 'pDatFLEX' : parámetro formal sin referencia
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\Debug\DataTypes.lib) does not match the Library's OutputFile property value (C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\Debug\DataTypes.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/Debug\DataTypes.lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /NOLOGO "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/Localization/lib/intl.lib" Debug\Cluster.obj
+         Debug\Defines_FlexRay.obj
+         Debug\FEALData.obj
+         Debug\Filter_Datatypes.obj
+         Debug\FLEXRAY_Datatypes.obj
+         Debug\J1939_DataTypes.obj
+         Debug\Log_Datatypes.obj
+         Debug\MainSubEntry.obj
+         Debug\MsgBufVSE.obj
+         Debug\MsgBufVVSE.obj
+         Debug\MsgSignal_Datatypes.obj
+         Debug\ProjConfig_DataTypes.obj
+         Debug\Struct_BUS.obj
+         DataTypes.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\Debug\DataTypes.lib
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\DataTypes\DataTypes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.27

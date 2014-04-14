@@ -1,0 +1,158 @@
+﻿Build started 11/04/2014 9:20:28 AM.
+     1>Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Application\BUSMASTER.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(..\..\BIN\busmaster_debug\BUSMASTER) does not match the Linker's OutputFile property value (BUSMASTER). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/bin/busmaster_debug\BUSMASTER.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Winmm.lib shlwapi.lib htmlhelp.lib psapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Release/BUSMASTER.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"busmaster_debug\..\..\BIN\busmaster_debug\BUSMASTER.lib" /MACHINE:X86 /SAFESEH "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DIL_Interface.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\ProjectConfiguration.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\FrameProcessor.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Replay.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\SignalWatch.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\Filter.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\CommonClass.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\PSDI_CAN.lib"
+         "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\/BIN/Libs/busmaster_debug\TXWindow.lib" busmaster_debug\BUSMASTER.res
+         .\Release/Application.obj
+         .\Release/AppServices_Impl.obj
+         .\Release/BUSMASTER.obj
+         .\Release/BusmasterDump.obj
+         .\Release/BusStatisticCAN.obj
+         .\Release/BusStatisticLIN.obj
+         .\Release/BusStatistics.obj
+         .\Release/BusStatisticsDlg.obj
+         .\Release/CGCtrl.obj
+         .\Release/CNVTCImageList.obj
+         .\Release/CNVTCToolBar.obj
+         .\Release/ConfigAdapter.obj
+         .\Release/ConfigData.obj
+         .\Release/ConfigDetails.obj
+         .\Release/ConfigMsgDispPropPg.obj
+         .\Release/ConfigMsgLogDlg.obj
+         .\Release/DatabaseDissociateDlg.obj
+         .\Release/DisplayIntMsg.obj
+         .\Release/DriverInfoDlg.obj
+         .\Release/ElementSelection.obj
+         .\Release/FibexClass.obj
+         .\Release/ChannelConfigurationDlg.obj
+         .\Release/FIBEX_Structs.obj
+         .\Release/Flags.obj
+         .\Release/FlexRayDatabaseDissociateDlg.obj
+         .\Release/FlexRayNetworkStats.obj
+         .\Release/FlexRayNetworkStatsDlg.obj
+         .\Release/FlexTxHandler.obj
+         .\Release/GraphConfiguration.obj
+         .\Release/GraphElement.obj
+         .\Release/GraphList.obj
+         .\Release/GraphParameters.obj
+         .\Release/InterfaceGetter.obj
+         .\Release/J1939TimeOutCfg.obj
+         .\Release/LDFLexer.obj
+         .\Release/ldfparser.obj
+         .\Release/LINBusStatisticsDlg.obj
+         .\Release/MainFrm.obj
+         .\Release/MDIChildBase.obj
+         .\Release/MessageAttrib.obj
+         .\Release/MessageDetailsDlg.obj
+         .\Release/MessageInterpretation.obj
+         .\Release/MessageList.obj
+         .\Release/MsgBufferConfigPage.obj
+         .\Release/MsgFilterConfigPage.obj
+         .\Release/MsgFrmtWnd.obj
+         .\Release/MsgIDAttr.obj
+         .\Release/MsgSgDetView.obj
+         .\Release/MsgSgTreeView.obj
+         .\Release/MsgSignal.obj
+         .\Release/MsgSignalDBWnd.obj
+         .\Release/MsgWndHdrInfo.obj
+         .\Release/MsgWndThread.obj
+         .\Release/MultiLanguage.obj
+         .\Release/NetworkStatistics.obj
+         .\Release/NodeUtil_Flexray.obj
+         .\Release/NotificListbox.obj
+         .\Release/NotificWnd.obj
+         .\Release/ParserHelper.obj
+         .\Release/PPageMessage.obj
+         .\Release/Properties.obj
+         .\Release/RxMsgList.obj
+         .\Release/SigGrphConfigDlg.obj
+         .\Release/SigGrphWndHandler.obj
+         .\Release/SignalDetailsDlg.obj
+         .\Release/SignalMatrix.obj
+         .\Release/Splash.obj
+         .\Release/SplFileDlg.obj
+         .\Release/StdAfx.obj
+         .\Release/Struct.obj
+         .\Release/TimeManager.obj
+         .\Release/TreeItemParam.obj
+         .\Release/TSEditorHandler.obj
+         .\Release/TSExecutorHandler.obj
+         .\Release/TxHandler.obj
+         .\Release/TxHandlerLIN.obj
+         .\Release/TxMsgWndJ1939.obj
+         .\Release/UIThread.obj
+         .\Release/Utility.obj
+         .\Release/ValueDescriptionDlg.obj
+         .\Release/WaveFormDataHandler.obj
+         .\Release/WaveformSelectionDlg.obj
+         .\Release/WaveformTransmitter.obj
+         .\Release/WrapperErrorLogger.obj
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\CommonClass.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\DIL_Interface.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Filter.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\FrameProcessor.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\NodeSimEx.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\ProjectConfiguration.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\PSDI_CAN.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\Replay.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\SigGrphWnd.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\SignalDefiner.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\SignalWatch.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\TestSetupEditorGUI.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\TestSuiteExecutorGUI.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\TXWindow.lib
+         C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\BIN\Libs\busmaster_debug\UDS_Protocol.lib
+         
+     1>C:\Users\MSERRA~1\AppData\Local\Temp\lnk{6BD8E890-F1B6-4D40-9C5B-E369A6F43788}.tmp : manifest authoring warning 81010002: Unrecognized Element "requestedPrivileges" in namespace "urn:schemas-microsoft-com:asm.v3".
+         
+         
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest : manifest authoring warning 81010002: Unrecognized Element "application" in namespace "urn:schemas-microsoft-com:asm.v3".
+         
+     1>Application.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>MainFrm.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>MsgSignal.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>NotificListbox.obj : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility_Thread.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(Utility.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(ComputeCheckSum.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(RadixEdit.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(AlphanumiricEdit.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(WaitIndicator.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(ColorSelector.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(UtilFunctions.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(MsgInterpretation.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(FFListCtrl.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(FlickerFreeListCtrl.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(OffScreenDC.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>Utils.lib(FlickerFreeTree.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+     1>DataTypes.lib(Defines_FlexRay.obj) : warning LNK4254: sección 'ATL' (50000040) combinada en '.rdata' (40000040) con atributos diferentes
+         BUSMASTER.vcxproj -> C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Application\busmaster_debug\..\..\BIN\busmaster_debug\BUSMASTER.exe
+       PostBuildEvent:
+         copy ".\BUSMASTER_Interface.h" "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\\bin\busmaster_debug\BUSMASTER_Interface.h"
+         copy ".\BUSMASTER_Interface.c" "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\\bin\busmaster_debug\BUSMASTER_Interface.c"
+         copy ".\busmaster_debug\BUSMASTER.tlb" "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\\bin\busmaster_debug\BUSMASTER.tlb"
+         copy ".\Res\Splsh16.bmp" "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\\bin\busmaster_debug\Splsh16.bmp"
+         
+         :VCEnd
+                 1 archivo(s) copiado(s).
+                 1 archivo(s) copiado(s).
+         El sistema no puede encontrar el archivo especificado.
+                 1 archivo(s) copiado(s).
+     1>Done Building Project "C:\Marc_Serra\TortoiseGit_Busmaster\BUSMASTER_2.3_UDS\busmaster\Sources\Application\BUSMASTER.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
